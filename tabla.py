@@ -1,3 +1,4 @@
+#prueba de nano en terminal para commit
 #Tablas de multiplicar con for
 #tabla del 8
 
