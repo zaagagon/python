@@ -1,5 +1,5 @@
 #ejecutar python hola.py
-print('Hola py')
+print('Hola py en zag')
 
 a=9
 b=7
