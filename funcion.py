@@ -1,3 +1,5 @@
+#funcion en python3
+#
 def main():
     print('Introduce tu nombre')
     nombre = input()
