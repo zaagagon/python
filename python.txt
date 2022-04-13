@@ -1,0 +1,11 @@
+En wallie se encuentra instalada
+
+
+varias versiones de python
+
+ruta de acceso a python
+/usr/bin/python
+
+cmod
+
+python --version
