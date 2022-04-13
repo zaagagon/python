@@ -1,7 +1,7 @@
 #programa que imprime 3 veces las letras
 #python3 entrada.py para ejecutar
 
-teclado=input("diigite su nombre :")
+teclado=input("Digite su nombre :")
 #teclado="yolis"
 print(f"hola, {teclado}")
 for i in range(3):
