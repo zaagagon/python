@@ -1,7 +1,9 @@
-frutas = {'Plátano':1.35, 'Manzana':0.8, 'Pera':0.85, 'Naranja':0.7}
-fruta = input('¿Qué fruta quieres? ').title()
+frutas = {1.35:"platano", 0.8:'Manzana',0.85:'Pera', 0.7:'Naranja'}
+precios = {8000:"bandeja paisa", 4500:"Desayuno paisa", 5500:"Ajiaco"}
+
+accion = input('¿Qué fruta quieres? ').title()
 kg = float(input('¿Cuántos kilos? '))
-if fruta in frutas:
-    print(kg, 'kilos de', fruta, 'valen', frutas[fruta]*kg, '$')
+if accion in frutas:
+    print(kg, 'kilos de', accion, 'valen', frutas[accion]*kg, '$')
 else: 
-    print("Lo siento, la fruta", fruta, "no está disponible.")
+    print("Lo siento, la fruta",accion, "no está disponible.")
