@@ -6,6 +6,7 @@ def main():
     print('Introduce tu nombre :')
     #variable
     nombre = input()
+    #python3 
     print(f'Bienvenido al mundo de {nombre}')
     
 
