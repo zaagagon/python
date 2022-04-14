@@ -1,6 +1,7 @@
 #funcion en python3
 #solucion rama master python defecto
 #ya no es main
+#branch o rama -- master
 def main():
     print('Introduce tu nombre :')
     #variable
