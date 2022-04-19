@@ -1,5 +1,5 @@
 #ejecutar python hola.py
-print('aprendiendo')
+print('Aprendiendo')
 
 a=9
 b=7
