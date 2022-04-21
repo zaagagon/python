@@ -6,7 +6,7 @@ clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
 clearConsole()
 
-input(" ** Programa que suma dos numeros **")
+input(" ** Programa que suma dos numeros **",'\n')
 
 n1 = float(input("Digite número uno: "))
 n2 = float(input("Digite numero dos: "))
