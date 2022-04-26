@@ -19,7 +19,10 @@ hola, yolis
 a b c d e f 
 a b c d e f 
 a b c d e f 
-wallie:python root# 
+wallie:python root#
+
+#listas python
+
 
 #diccionarios en python
 Considerado una estructura de datos poderosa
