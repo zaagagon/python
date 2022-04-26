@@ -1,5 +1,5 @@
 #dicionario valores y claves
-from tkinter import N
+
 
 
 diccionario= {'P': 7, 'A': 7, 'L': 1, 'O': 4}
@@ -8,6 +8,6 @@ for v in diccionario.values():
     print(v)
 
     #revisar#
-
-for n in diccionario :
+diccionarios= {'P': 7, 'A': 7, 'L': 1, 'O': 4}
+for n in diccionarios :
     print(n)
