@@ -20,3 +20,12 @@ a b c d e f
 a b c d e f 
 a b c d e f 
 wallie:python root# 
+
+#diccionarios en python
+Considerado una estructura de datos poderosa
+
+los elementos de un diccionario se encierran entre corchetes
+
+cada elemento o item esta conformado por :
+
+clave - valor
