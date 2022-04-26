@@ -1,0 +1,4 @@
+1. listas
+2. diccionarios
+3. ingreso de datos
+4. tamaño de lista (len)
