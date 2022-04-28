@@ -8,7 +8,8 @@
 teclado=input("Cual es un nombre : ")
 print("Bienvenid",teclado)
 print("**PROGRAMA QUE SUMA DOS NUMEROS**")
-N1=input("Digite primer numero :")
-N2=input("Digite segundo numero :")
+#int antes del input para que el dato sea entero
+N1=int(input("Digite primer numero :"))
+N2=int(input("Digite segundo numero :"))
 suma=N1+N2
 print("Resultado de la suma :",suma)
