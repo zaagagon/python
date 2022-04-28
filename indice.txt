@@ -2,3 +2,5 @@
 2. diccionarios
 3. ingreso de datos
 4. tamaño de lista (len)
+5 recorrido de una lista
+6. ingreso de datos en python
