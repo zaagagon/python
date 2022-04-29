@@ -1,5 +1,7 @@
 numbers=[3,45,6,7,6]
-print(len(numbers))
+#tamaño de la lista
+
+print("** Tamaño de lista **",len(numbers))
 #su salida deber ser 5
 print (numbers[0])
 #la salida es 3
