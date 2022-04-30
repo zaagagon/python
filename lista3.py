@@ -5,6 +5,7 @@ nombres=["lol","dfd","fdfd",4]
 print(len(nombres))
 #
 nombres.append("lio")
+nombres.append(45)
 
 #imprimir contenido de la list
 
