@@ -1,5 +1,10 @@
-nombres={"lol","dfd","fdfd",4}
+from pickle import APPEND
+
+
+nombres=["lol","dfd","fdfd",4]
 print(len(nombres))
+#
+nombres.append("lio")
 
 #imprimir contenido de la list
 
