@@ -1,5 +1,5 @@
 #ejecutar python hola.py
-from telnetlib import theNULL
+#from telnetlib import theNULL
 
 
 print('Hola py en wall-e')
