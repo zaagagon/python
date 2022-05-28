@@ -10,5 +10,5 @@ print('resultado de la suma :' ,a+b)#concatenar datos
 
 arreglo = [1, 3, 4, 8]
 if 7 in arreglo:
-    print('está en valores')
+    print('está en arreglo')
 print('7 no esta en arrel')
