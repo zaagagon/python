@@ -16,7 +16,7 @@ char ch;
 printf("Introduzca una vocal: ");
 ch=getchar();
 switch(ch) {
-case 'a': printf("Se ha pulsado una a.\n");
+case 'a': printf("Se ha pulsado una a.: %d\n", ch); //salto de linea
 break;
 case 'e': puts("Se ha pulsado una e.");
 break;
