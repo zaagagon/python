@@ -1,8 +1,7 @@
+#funcion saludo
 def saludo():
-  #salida en pantalla
-  user=input("hola como te llamas")
-  print("bienvenido .." + user)
+    nombre = input("Por favor, ingresa tu nombre: ")
+    print(f"¡Hola, {nombre}! Bienvenido.")
 
-  #llamado funcion saludo
-  saludo()
-  print("prueba")
+# Llamar a la función para saludar al usuario
+saludo()
