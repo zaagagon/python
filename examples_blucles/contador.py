@@ -1,7 +1,7 @@
 def mostrar(lista):
     for elemento in lista:
         print(elemento)
-
+#funcion hola
 def hola(nombre):
     print(f"hola {nombre}")
 
