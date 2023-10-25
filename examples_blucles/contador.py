@@ -7,15 +7,12 @@ contador = 0
 #insertar elemento 
 lista.insert(1, 2)
 
+mostrar(lista)
 
-    #muestra las iteraciones de la lista
-
-  
-
+  #muestra las iteraciones de la lista
 for lista in lista:
    if lista == 2:
        contador += 1
 
 print("Cantidad de 2:", contador)
 
-mostrar(lista)
