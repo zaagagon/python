@@ -14,11 +14,13 @@ def crear_arreglo(arreglos):
     arreglos[nombre] = nuevo_arreglo
     print(f"Se ha creado un nuevo arreglo con el nombre '{nombre}'.")
 
-# Función para agregar un elemento al arreglo
-def agregar_elemento(arreglo):
-    elemento = input("Ingrese un elemento para agregar al arreglo: ")
-    arreglo.append(elemento)
-    print(f"'{elemento}' ha sido agregado al arreglo.")
+# Función para agregar elementos al arreglo
+def agregar_elementos(arreglo):
+    num_elementos = int(input("¿Cuántos elementos desea agregar al arreglo?: "))
+    for _ in range(num_elementos):
+        elemento = input("Ingrese un elemento para agregar al arreglo: ")
+        arreglo.append(elemento)
+        print(f"'{elemento}' ha sido agregado al arreglo.")
 
 # Función para eliminar un elemento del arreglo
 def eliminar_elemento(arreglo):
@@ -68,7 +70,7 @@ arreglos = {}
 while True:
     print("\nMenú:")
     print("1. Crear un nuevo arreglo")
-    print("2. Agregar elemento")
+    print("2. Agregar elementos")
     print("3. Eliminar elemento")
     print("4. Cambiar elemento")
     print("5. Ver arreglos creados y sus elementos")
@@ -82,7 +84,7 @@ while True:
     elif opcion == "2":
         nombre_arreglo = input("Ingrese el nombre del arreglo: ")
         if nombre_arreglo in arreglos:
-            agregar_elemento(arreglos[nombre_arreglo])
+            agregar_elementos(arreglos[nombre_arreglo])
         else:
             print(f"No se encontró un arreglo con el nombre '{nombre_arreglo}'.")
     elif opcion == "3":

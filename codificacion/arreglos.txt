@@ -1,1 +1,1 @@
-numeros: ['4']
+frutas: ['manzana', 'pera', 'banano']
