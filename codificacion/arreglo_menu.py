@@ -59,7 +59,7 @@ def cambiar_elemento(arreglo):
 
 # Función para guardar los arreglos en un archivo
 def guardar_arreglos(arreglos):
-    with open("arreglos.txt", "w") as archivo:
+    with open("arreglos.txt", "a") as archivo:  # 'a' para agregar al final del archivo
         for nombre, arreglo in arreglos.items():
             archivo.write(f"{nombre}: {arreglo}\n")
     print("Arreglos guardados en 'arreglos.txt'.")

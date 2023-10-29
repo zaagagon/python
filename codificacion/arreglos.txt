@@ -1,1 +1,2 @@
 frutas: ['manzana', 'pera', 'banano']
+frutas: ['mango', 'pera']
