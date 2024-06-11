@@ -7,4 +7,4 @@ c = num1+num2
 print  (c)
 
 # Llamar a la función para imprimir "Hola, Mundo"
-#hola_mundo()
+hola_mundo()
