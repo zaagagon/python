@@ -3,7 +3,7 @@
 #ya no es main
 #branch o rama -- master
 def main():
-    print('Introduce tu nombre completo :')
+    print('Introduce tu nombre completo -- :')
     #variable
     nombre = input()
     #python3 
