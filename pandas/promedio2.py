@@ -6,10 +6,12 @@ def mensaje():
 mensaje()
 
 
-lista=[3,4,5,6,3,2]
+lista=[3,4,5,6,3,2,7,8,]
 
 promedio= pd.Series(lista)
 print(promedio)
 #promedio con pandas
 promedio2= pd.Series(lista).mean()
-print(promedio2)
+print("Valor promedio con pandas : "promedio2)
+
+print("tamaño lista ", len(lista))
