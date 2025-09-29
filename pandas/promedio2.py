@@ -12,6 +12,9 @@ promedio= pd.Series(lista)
 print(promedio)
 #promedio con pandas
 promedio2= pd.Series(lista).mean()
-print("Valor promedio con pandas : "promedio2)
+print("Valor promedio con pandas : ", promedio2)
 
 print("tamaño lista ", len(lista))
+serie=pd.Series(lista)
+
+print("promedio con serie", serie.mean())
