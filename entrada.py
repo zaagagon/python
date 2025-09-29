@@ -7,4 +7,7 @@ print(f"hola, {teclado}")
 for i in range(3):
     print("a b c "
           "d e f ")
+#revisando
 
+nombre = "python"
+print(nombre)
