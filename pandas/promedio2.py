@@ -18,3 +18,4 @@ print("tamaño lista ", len(lista))
 serie=pd.Series(lista)
 
 print("promedio con serie", serie.mean())
+print("mediana con serie", serie.median())
